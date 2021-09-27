@@ -1,5 +1,5 @@
 # Build the cos binary
-FROM golang:1.16 as builder
+FROM quay.io/airshipit/golang:1.16.8-alpine as builder
 
 WORKDIR /workspace
 # Copy the Go Modules manifests
